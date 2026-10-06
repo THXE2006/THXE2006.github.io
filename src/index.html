@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Happy Birthday 💕</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mali:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-s="1">
+
+<section class="screen on" id="s1">
+  <p class="lead">เค้ามีอะไรอยากให้ที่รักดูด้วยหล่ะะะ</p>
+  <img class="mail" id="mail" src="../images/mail.png" alt="ซองจดหมายรูปหัวใจ">
+  <button class="go" id="open">เปิด</button>
+  <img class="cat" src="../images/cat.gif" alt="">
+</section>
+
+<section class="screen" id="s2">
+  <p class="lead">เค้ามีอะไรอยากให้ที่รักดูด้วยหล่ะะะ</p>
+  <div class="panel" id="panel">
+    <h2>Password</h2>
+    <div class="digits" id="dg"><span></span><span></span><span></span><span></span></div>
+    <div class="pad" id="pad"></div>
+  </div>
+  <img class="cat" src="../images/cat.gif" alt="">
+</section>
+
+<div class="wrap" id="main">
+  <img class="flags" src="../images/flag.png" alt="">
+  <h1>HAPPY BIRTHDAY</h1>
+  <div class="film" id="film"></div>
+  <section class="end">
+    <p>กดเปิดเร็วววว 💌</p>
+    <button class="env" id="env" aria-label="เปิดจดหมาย">
+      <svg viewBox="0 0 300 200" aria-hidden="true">
+        <rect x="8" y="8" width="284" height="184" rx="6" fill="#fbc3f1" stroke="#3b2147" stroke-width="3"/>
+        <path d="M8 8 L150 112 L292 8" fill="#f8a9ea" stroke="#3b2147" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M8 192 L112 96 M292 192 L188 96" stroke="#3b2147" stroke-width="3" fill="none"/>
+        <path d="M150 154 c-10-10-22-20-22-30 a12 12 0 0 1 22-6 a12 12 0 0 1 22 6 c0 10-12 20-22 30z" fill="#f0508a"/>
+      </svg>
+    </button>
+  </section>
+</div>
+
+<div class="letter" id="letter">
+  <div class="card">
+    <video id="vid" playsinline controls preload="none"></video>
+    <p class="empty" id="empty" hidden>ยังไม่ได้ใส่คลิปวิดีโอ (ใส่ที่ตัวแปร VIDEO ในโค้ด)</p>
+    <button class="go" id="close">ปิด</button>
+  </div>
+</div>
+
+<button class="disc" id="disc" aria-label="เปิด/ปิดเพลง" aria-pressed="true"><img src="../images/disk.png" alt=""></button>
+<audio id="bgm" loop preload="none"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
